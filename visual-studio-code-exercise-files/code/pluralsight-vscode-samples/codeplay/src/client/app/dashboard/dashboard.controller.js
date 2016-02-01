@@ -18,6 +18,11 @@
         vm.messageCount = 0;
         vm.people = [];
         vm.title = 'Dashboard';
+        
+        activate();
+        function activate() {
+            console.log('hello');
+        }
 
 
 
